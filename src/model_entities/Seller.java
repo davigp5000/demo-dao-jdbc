@@ -12,14 +12,14 @@ public class Seller implements Serializable {
 	private Date birthDate;
 	private double baseSalary;
 	
-	private Departament department;
+	private Department department;
 	
 
 	public Seller() {
 		
 	}
 
-	public Seller(Integer id, String name, String email, Date birthDate, double baseSalary, Departament department) {
+	public Seller(Integer id, String name, String email, Date birthDate, double baseSalary, Department department) {
 		this.id = id;
 		this.name = name;
 		this.email = email;
@@ -68,11 +68,11 @@ public class Seller implements Serializable {
 		this.baseSalary = baseSalary;
 	}
 
-	public Departament getDepartment() {
+	public Department getDepartment() {
 		return department;
 	}
 
-	public void setDepartment(Departament department) {
+	public void setDepartment(Department department) {
 		this.department = department;
 	}
 
