@@ -17,11 +17,11 @@ import model.dao.SellerDao;
 import model_entities.Department;
 import model_entities.Seller;
 
-public class sellerDaoJDBC implements SellerDao   {
+public class SellerDaoJDBC implements SellerDao   {
 
 	private Connection conn; 
 	
-	public sellerDaoJDBC(Connection conn) {
+	public SellerDaoJDBC(Connection conn) {
 		this.conn = conn;
 	}
 	@Override
